@@ -1,0 +1,24 @@
+20/09/17	18:00	18:15 created ssh keys and set up git
+28/09/17	21:00   21:30 porting lab9 
+28/09/17    21:30   22:00 testing for subset 0, no output produced due to 
+                          lab 9 reading in files while the assignment reads
+                          from standard input 
+28/09/17    22:00   22:00 subset 0 complete more or less from Andrew's code
+29/10/17    13:45   13:30 saving indentation by matching it into a string, ignoring it for now
+29/10/17    13:30   13:45 debugging for subset 1, assumed perfectly spaced syntax for operators
+29/10/17    13:45   13:40 realised theres sometimes no spaces inbetween print and brackets e.g print(
+                          or double quote marks
+30/10/17    15:00   15:30 assuming we print either a variable OR a string
+30/10/17    13:30   14:00 subset 1 complete
+01/10/17    14:30   15:00 inexplicable uninitialised element in foreach loop
+01/10/17    16:00   18:40 implement subroutine to convert variables
+01/10/17    19:00   19:40 converted main function into a subroutine so it can recurseively convert 								the body of the loop
+01/10/17    20:40   21:45 did not account for single letter variables
+01/10/17    21:45   22:00 subset 2 passed
+01/10/17	22:40 	23:10 issue with spacing and indentation, previously indented by counting spaces						   now going to count :'s instead to account for python programs that end 								with indentation
+02/10/17	06:00	06:50  if there is still spaces at the end of the for loop, print closing braces
+						  until indentation is 0
+02/10/17	07:20 	07:30  stuck on dealing with sys functions, toss up between making my code 								   readeale by creating a sub routine or creating alot of sed's in existing if							statements
+02/10/17	08:10	08:50  enabled for loop
+02/10/17    08:50	08:55  range required -1 for perl conversion
+03/10/17	09:00	10:00  pretting up code 2hrs
